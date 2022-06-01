@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.font-link {
+  color: rgb(245, 4, 16);
+  display: inline-block;
+  position: relative;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  background-image: url('./bgg.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+.app-wrapper {
+  display: flex;
+}
+
+.news-feed {
+  background-color: rgb(204, 204, 231);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  max-width: 300px;
+  height: 100%;
+}
+
+.currency-converter {
+  background-color: rgb(230, 223, 211);
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  text-align: center;
+}
+
+.exchange-rate {
+  background-color: rgb(221, 230, 221);
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 10px;
+}
+
+.convert-button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.input-box {
+  background-color: rgb(218, 227, 238);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+input,
+select {
+  border: none;
+}
